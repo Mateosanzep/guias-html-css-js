@@ -1,0 +1,97 @@
+selector {
+	propiedad: valor;
+}
+* { (todo)
+	color: red;
+}
+h1 { (selector)
+	color: red !important 
+}
+.hola { (clase)
+	color: red;
+}
+#adios { (identificacion)
+	color: red;  
+}
+[type="text/css"] { (atributo)
+	color: red;
+}
+h1 p { (desendiente)
+	color: red;
+}
+h1:hover { (pseudo clases)
+	color: red;
+}
+font-size= px, cm mm (em, rem - varian)
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.hola{
+	font-size: 25px;
+	background-color: #000;
+	width: 50vw;
+	height: 50vh;
+}
+font-family: sans-serif;
+line-height: 1;
+line-weight: 100;
+
+display: inline-block;
+padding: 10px; - distancia del texto al limite de la pagina
+margin: 10px; - distancia entre las cajas
+border-radius: 10px;
+border: 10px solid red;
+box-shadow: 10px 10px 10px 0 black;
+transform: rotate(90deg);
+outline: 10px blue; es un border pero no afecta
+position: relative; - no pierde su espacio
+position: absolute; - se mueva a donde quieras, pierde su espacio
+position: fixed; es como el absolute pero se queda fijo
+position: sticky; se fija cuando llagamos a esa parte
+z-index: 1; poner prioridad
+overflow: auto; - pone la barra de scroll si se necesitas
+float: right;
+
+pseudo-elementos
+::first-line
+::first-letter
+::placeholder - son las letras que te salen antes en las cajas para escribir
+::selection - cuando seleccionas la cosa azul cambie
+::after - necesita un content, y es para poner texto despues de uno que si exista (esto en realidad no existe)
+::before - igual que el after pero esto es antes
+
+pseudo-clase
+:hover - se activa cuando el cursor esta arriba
+:link - al momento en le que tu visitas un link ese cambia <a>
+:visited - lo contrario a link
+:active - cuando estamos apretando algo cambia
+:focus - es como el active pero solo un click y se mantiene y se nesecitan input
+:lang - para modificar el lenguaje
+
+objet-fit
+	objet-fit: contain; esto te ayuda a que la imagen este del tamaño original pero dentro de una caja y no se deforme para los lados
+	objet-fit: cover; para que la imagen averque toda la caja pero que recorte el sobrante
+	objet-fit: scale-down; agarra el valor mas bajo entre none y contain
+
+objet-position
+	objet-position: (direccion); lo que busca esto es a que direccion se mueve la imagan cuando no cabe
+
+cursor: cambiar el estilo de cambiar el cursor
+
+Flex boxes, items y Container. esto es para que las cajas sean flexibles y se puedan mover
+
+Grid: container, items, cell, tracks, area and line
+
+Responsive design: para que la resolucion se vea bien en todas las resoluciones
+
+Trasitions: como va a cambiar algo
+
+Animaciones
+
+transform
+
+variables
+
+Filter: para ponerle filtros a las imagenes
