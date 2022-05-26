@@ -14,4 +14,3 @@ const c = 13;
 console.log(a + c);
 console.log({ a }); // Poner los valores entre llaves hace que en la consola nos salga el nombre de la variable
 alert('estas seguro de esto') // Pone como una notificacion
-j 
